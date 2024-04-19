@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class GenericProductDto {
+public class GenericProductDto  implements  java.io.Serializable{
     private Long id;
     private String title;
     private String description;
